@@ -86,9 +86,9 @@ main {
 .navbar a {
     color: rgb(51, 47, 47);
     font-size: calc(0.2rem + 1vw);
+    font-weight: bold;
     font-family: 'honda', sans-serif;
-    
-}
+  }
 
 .navbar .nav-links ul {
     display: flex;
@@ -216,6 +216,8 @@ main {
         font-size: calc(0.5rem + 1vw);
         font-weight: bold;
     }
+
+   
 
 }
 
@@ -390,10 +392,12 @@ p.titre {
     .photo-grid .photo-square.first {
         margin-right: 2%
     }
+
+    
 }
 
 .infomoto {
-    margin: 120px
+    margin: 20px
 }
 
 .infomoto h1 {
@@ -412,7 +416,9 @@ p.titre {
 .infomoto p {
     text-align: start;
     margin-bottom: 30px;
-    font-size: calc(1rem + 1vw);
+    font-size: calc(0.8rem + 0.5vw);
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .modal {
@@ -434,7 +440,7 @@ p.titre {
 }
 
 footer {
-    height: 78vh;
+    height: 59vh;
     background-color: #a39898;
   }
   
@@ -444,7 +450,7 @@ footer {
   }
 
   .icon {
-    width: 2vw;
+    width: 4vw;
     height: 2vh;
     margin: 15px;
     margin-left: 30px;
@@ -460,8 +466,8 @@ footer {
     display: flex;
     flex-direction: column;
     width: 90vw;
-    height: 40vh;
-    margin: 10px;
+    height: 25vh;
+  
     margin-top: 5px;
   }
   
@@ -469,6 +475,7 @@ footer {
     display: flex;
     margin-right: -40px;
     align-items: center;
+    margin-top: 10px;
     /* Ajustez la marge selon vos préférences */
   }
   

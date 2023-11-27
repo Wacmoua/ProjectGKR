@@ -11,7 +11,7 @@ html{
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'suzuki', sans-serif;
   font-size: 16px;
   height: 100vh;
   width: 100vw;
@@ -151,7 +151,7 @@ main {
 
 .whitebarhead {
   width: 100vw;
-  height: 19vh;
+  height: 16vh;
   background-color: white;
 }
 
@@ -346,31 +346,36 @@ p.textoccaz {
 
 p.equipe2 {
   color: #000000;
-  margin: 120px;
-  
+  margin: 25vw;
+  font-size: calc(0.8rem + 2vw);
+  margin: 32px;
+  }
+
+p.rendezvoustitle{
+  margin: 10px;
 }
 
-
 .rendezvous {
-  font-size: calc(1rem + 2vw);
+  font-size: calc(0.8rem + 2vw);
   color: rgb(0, 0, 0);
-  margin: 80px;
+  margin: 32px;
 }
 
 .rendezvous2 {
-  font-size: calc(1rem + 1vw);
+  font-size: calc(0.8rem + 1vw);
   color: rgb(0, 0, 0);
   margin: 20px;
 }
 
 .rdv img {
-  width: 100vmin;
-  height: 65vmin;
+  width: 83vmin;
+  height: 46vmin;
+ 
 }
 
 .container {
   width: 50vw;
-  height: 30vh;
+  height: 20vh;
   display: flex;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
@@ -398,12 +403,12 @@ p.equipe2 {
 }
 
 .container .card:nth-child(4) {
-  background-color: #aa7e7e;
+  background-color: #ca7b7b;
 }
 
 .container .card p{
   color: #000000;
-  font-size: calc(0.3rem + 0.5vw);
+  font-size: calc(0.5rem + 0.5vw);
   
 } 
 
@@ -488,7 +493,7 @@ footer {
 }
 
 .icon {
-  width: 2vw;
+  width: 4vw;
   height: 2vh;
   margin: 15px;
   margin-left: 30px;
@@ -513,11 +518,12 @@ footer {
   display: flex;
   margin-right: -40px;
   align-items: center;
+  margin-top: 10px;
   /* Ajustez la marge selon vos préférences */
 }
 
 .info p {
-  font-size: calc(1rem + 1vw);
+  font-size: calc(0.5rem + 1vw);
   color: #000000;
   margin-left: 20px;
   font-weight: bold;
